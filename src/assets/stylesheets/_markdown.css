@@ -1,0 +1,121 @@
+.markdown {
+
+  @apply leading-relaxed;
+
+  p {
+    @apply my-6;
+  }
+
+  ul,
+  ol {
+    @apply my-6 ml-3 list-inside;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  ol {
+    @apply list-decimal;
+  }
+
+  ul ul,
+  ol ul,
+  ul ol,
+  ol ol {
+    @apply my-0 ml-3;
+  }
+
+  blockquote {
+    @apply my-6
+  }
+
+  /* Headings */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply mb-0 mt-6 leading-tight font-bold;
+  }
+
+  h1 {
+    @apply text-4xl leading-tight dm-serif-display mb-6 font-medium;
+    font-family: 'DM Serif Display', serif;
+
+    @media (min-width: 768px) {
+      @apply text-6xl;
+    }
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+
+  h3 {
+    @apply text-xl;
+  }
+
+  h4 {
+    @apply text-lg;
+  }
+
+  h5 {
+    @apply text-base;
+  }
+
+  h6 {
+    @apply text-sm;
+  }
+
+  /* Tables */
+  table {
+    margin-top: 1.5rem;
+    border-spacing: 0px;
+    border-collapse: collapse;
+  }
+
+  table td,
+  table th {
+    padding: 0;
+    line-height: 33px;
+    @apply border p-2;
+  }
+
+
+  a,
+a:visited {
+	position: relative;
+	@apply no-underline font-bold;
+
+	&:after,
+	&:before {
+		content: "";
+		position: absolute;
+		height: 2px;
+		bottom: 0;
+		left: 0;
+		z-index: -1;
+		transition: all .3s cubic-bezier(.86, 0, .07, 1);
+	}
+
+	&:before {
+		@apply bg-gray-500;
+		width: 100%;
+	}
+
+	&:after {
+		@apply bg-teal-300;
+    width: 0;
+    height: 100%;
+	}
+
+	&:hover {
+		&:after {
+			width: 100%;
+		}
+	}
+}
+
+}

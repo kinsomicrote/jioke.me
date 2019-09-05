@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}</title>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+    <link rel="author" href="{{ site.url }}">
+
+    <link href="https://github.com/kinsomicrote" rel="me">
+    <link href="https://twitter.com/kinsomicrote" rel="me">
+    <link href="https://instagram.com/kinsomicrote" rel="me">
+
+    <!-- Open Graph meta -->
+    <meta property="og:url" content="{{ site.url}}{{ page.url }}" />
+    <meta property="og:title" content="{% if title %}{{ title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description" content="{% if description %}{{ description }}{% else %}{{ site.description }}{% endif %}" />
+    {% if site.social_meta.featured_image or featured_image %}
+    <meta property="og:image" content="{% if featured_image  %}{{ featured_image }}{% else %}{{ site.social_meta.featured_image }}{% endif %}" />
+    {% endif %}
+    <meta name="twitter:card" content="{% if description %}{{ description }}{% else %}{{ site.social_meta.description }}{% endif %}" />
+    {% if site.social_meta.twitter %}
+    <meta name="twitter:site" content="{{ site.social_meta.twitter }}" />
+    <meta name="twitter:creator" content="{{ site.social_meta.twitter }}" />
+    {% endif %}
+    
+    {% if site.ENV == 'production' %}
+      <!-- capture the CSS content as a Liquid variable -->
+      {% capture css %}{% include stylesheets/app.compiled.css %}{% endcapture %}
+      <!-- feed it through our cssmin filter to minify -->
+      <style> 
+        {{ css | safe }}
+      </style>
+    {% else %}
+    <link rel="stylesheet" href="/assets/static/app.compiled.css">
+    {% endif %}
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="min-h-screen flex flex-col">
+        {% include partials/header.html %}
+        <main id="main" class="flex-auto md:flex md:items-center fade-in-bottom">
+            {{ content }}
+        </main>
+        {% include partials/footer.html %}
+    </div>
+    {% capture scripts %}{% include scripts/app.js %}{% endcapture %}
+    <script>
+        {{ scripts | safe }}
+    </script>
+  </body>
+</html>

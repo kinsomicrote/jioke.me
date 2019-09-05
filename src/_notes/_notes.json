@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/note",
+  "tags": "notes",
+  "permalink": "notes/{{ title | slug }}/index.html"
+}

@@ -5,14 +5,14 @@ date: 2019-09-05
 
 It should be between 2009-2011, I was working on the road when I met him. I had to stop to greet him, then the quiz started.
 
->Him: How are you doing?
+>Him: How are you doing?  
 >
 >Me: I am fine.
 >
->Him: Are you in school yet?
+>Him: Are you in school yet?  
 >Me: No.
 >
->Him: So what are you doing now?
+>Him: So what are you doing now?  
 >Me: Uhmm, I'm learning how to work with the computer
 
 

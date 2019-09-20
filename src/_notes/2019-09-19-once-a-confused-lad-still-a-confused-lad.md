@@ -25,7 +25,7 @@ I had just finished secondary school, the next phase should be tertiary educatio
 
 I tried again in 2011, this time I chose Delta State University and University of Ibadan to also study Microbiology, yeah, didn't work out.
 
-Back to the story. The man I was exchanging greetings happened to be one of my favourite teachers in secondary school. I had a strong influence on me because he was very smart.
+Back to the story. The man I was exchanging greetings with happened to be one of my favourite teachers in secondary school. He had a strong influence on me because he was very smart.
 
 I'm not sure what his response to what I had said was going to be, but what I heard was not what I was expecting, or within the range of expectations. It dropped like a grenade tossed in the marketplace. The one that lands right in front of you, with no route of escape.
 
@@ -37,15 +37,15 @@ At that point in my life, I was a confused lad. I had started to get acquainted 
 
 About 8 years later, I'm still trying to make sense of each day. I spent most of today trying to figure out some CSS issue, I dread the days where I have to debug CSS. I have no clue what the fix to the issue will be, but I'm pretty certain that I'll resolve it, with help from Google and humans of the web. Isn't that confusing?
 
-I started working on the API for a project. I managed to get the test suite working and passed a few tests last night before shutting down. Today didn't work out as planned, a test is failing and a feature is working as I want it today. No clue how to get it done yet, I'm quite confused at the moment.
+I started working on the API for a project. I managed to get the test suite working and passed a few tests last night before shutting down. Today didn't work out as planned, a test is failing and a feature is not working as I want it to. No clue how to get it done yet, I'm quite confused at the moment.
 
 It happens like that. Still that confused lad, possibly not on the same level.
 
 I ask myself tonight, what if the man had tried to understand what was going on in that lad's life? You know, tried a level of empathy? Would it have helped? I have no idea. Yet, what I know is that shoving the fact that I'll fail on my face didn't help either.
 
-If you're reading this, and you're caught up in your cycle of confusion. Find comfort in that fact that you're not alone. Most of us wake up each day trying to make sense of what that day is. The confusion is not what matters, it's probably what you do with it.
+If you're reading this, and you're caught up in your cycle of confusion. Find comfort in the fact that you're not alone. Most of us wake up each day trying to make sense of what the day will be. The confusion is not what matters, it's probably what you do with it.
 
-Sometimes I worry about tomorrow, we all do, but that does not wipe today's confusion off our mind. I'll leave you with these parts from Jon Bellion's song Maybe IDK.
+Sometimes I worry about tomorrow, we all do, but that does not wipe today's confusion off our mind. I'll leave you with these parts from Jon Bellion's song, Maybe IDK.
 
 [![https://images.app.goo.gl/4NG4LAtV7bSb2EKY7](http://img.youtube.com/vi/OLYObm5xNy8/0.jpg)](http://www.youtube.com/watch?v=OLYObm5xNy8 "Jon Bellion - Maybe IDK")
 

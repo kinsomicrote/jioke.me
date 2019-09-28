@@ -1,6 +1,6 @@
 ---
 title: Once a confused lad, still a confused lad
-date: 2019-09-05
+date: 2019-09-20
 ---
 
 It should be between 2009-2011, I was working on the road when I met him. I had to stop to greet him, then the quiz started.

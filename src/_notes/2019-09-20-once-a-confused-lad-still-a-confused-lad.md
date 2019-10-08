@@ -3,7 +3,7 @@ title: Once a confused lad, still a confused lad
 date: 2019-09-20
 ---
 
-It should be between 2009-2011, I was working on the road when I met him. I had to stop to greet him, then the quiz started.
+It should be between 2009-2011, I was walking on the road when I met him. I had to stop to greet him, then the quiz started.
 
 >Him: How are you doing?  
 >
@@ -31,13 +31,13 @@ I'm not sure what his response to what I had said was going to be, but what I he
 
 >He said; "you'll regret it when you see your friends succeeding, you'll regret it."
 
-I wish I can turn back the hands of time to ask him one question. If I could it be; "**have you seen my future?**" Or maybe "**why are you triggered?**"
+I wish I can turn back the hands of time to ask him one question. If I could, it will be; "**have you seen my future?**" Or maybe "**why are you triggered?**"
 
 At that point in my life, I was a confused lad. I had started to get acquainted with this beauty called the computer. We were walking down the path that led to, who knows, probably an aisle. I was always on my way to the cyber cafe like it was my place of worship. I wasn't sure what I wanted from life - trying to make sense of each day as it comes.
 
-About 8 years later, I'm still trying to make sense of each day. I spent most of today trying to figure out some CSS issue, I dread the days where I have to debug CSS. I have no clue what the fix to the issue will be, but I'm pretty certain that I'll resolve it, with help from Google and humans of the web. Isn't that confusing?
+About 8 years later, I'm still trying to make sense of each day. I spent most of today trying to figure out some CSS issue, I dread the days where I have to debug CSS. I have no clue what the fix to the issue will be, but I'm pretty certain that I'll resolve it with help from Google and humans of the web. Isn't that confusing?
 
-I started working on the API for a project. I managed to get the test suite working and passed a few tests last night before shutting down. Today didn't work out as planned, a test is failing and a feature is not working as I want it to. No clue how to get it done yet, I'm quite confused at the moment.
+I started working on the API for a project. I managed to get the test suite working and got a few to pass last night before shutting down. Today didn't work out as planned, a test is failing and a feature is not working as I want it to. No clue how to get it done yet, I'm quite confused at the moment.
 
 It happens like that. Still that confused lad, possibly not on the same level.
 

@@ -1,0 +1,5 @@
+{
+  "layout": "layouts/tutorial",
+  "tags": "tutorials",
+  "permalink": "tutorials/{{ title | slug }}/index.html"
+}

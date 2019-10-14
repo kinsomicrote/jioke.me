@@ -1,0 +1,29 @@
+---
+layout: layouts/base
+title: Tutorials - Kingsley Silas
+pagination:
+    data: collections.tutorials
+    size: 20
+    alias: sorted
+---
+
+
+<section class="container mx-auto my-4">
+	<h1 class="text-4xl md:text-6xl dm-serif-display leading-tight dm-serif-display mb-6">Tutorials</h1>
+	<div class="dm-sans leading-normal">
+		<p class="text-xl max-w-xl">All about technical articles</p>
+		
+		{% assign tutorials = sorted | reverse %}
+
+		<ul class="my-8 -mx-4 md:-mx-8">
+		{% for tutorial in tutorials %}
+			<li>
+				<a class="block no-underline bg-white border-b border-gray-200 p-4 md:px-8 hover:bg-gray-100" href="{{ tutorial.url }}">
+          <h3 class="leading-normal mb-0 text-lg font-bold">{{ tutorial.data.title }}</h3>
+          <span class="text-gray-500 text-xs">{{ tutorial.data.date | date: "%d%q %B %Y" }}</span>
+				</a>
+			</li>
+		{% endfor %}
+		</ul>
+	</div>
+</section>

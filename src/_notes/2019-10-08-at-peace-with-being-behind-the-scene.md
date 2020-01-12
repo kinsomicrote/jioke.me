@@ -18,7 +18,7 @@ I longed for attention, wanting to be on the spotlight. Always willing to air my
 It took me a while to embrace the place of solitude. The idea of conscious loneliness and my individuality. I had to be at peace with being alone in the room, with my thoughts. I wish I have a roadmap of how I arrived at this point. You know, something like; **5 ways to be at peace with yourself**.
 
 
-Not that I don't often want the attention once in a while, heaven knows that I do.
+Not that I don't often want the attention once in a while, heaven knows that I do!
 
 
 I've come to be at peace with not being famous. It might come, it might not come. Nothing will crash if either happens. There's nothing wrong with being famous, no, we absolutely need folks to be at the spotlight.

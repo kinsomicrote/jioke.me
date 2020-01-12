@@ -1,0 +1,42 @@
+.header{
+  position: absolute;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+  margin: 0 auto;
+  min-height: rem(60);
+  z-index: 999;
+
+  a {
+    border: none;
+  }
+
+  .logo, .github {
+    display: flex;
+    margin: rem(10px) rem(20px);
+    align-items: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-weight: 700;
+
+    @include media(medium) {
+      margin: rem(30px);
+    }
+  }
+
+  .github {
+    svg {
+      width: 36px;
+      height: 36px;
+      fill: black;
+      transition: all 300ms ease;
+    }
+
+    &:hover svg{
+      fill: inherit;
+    }
+  }
+}

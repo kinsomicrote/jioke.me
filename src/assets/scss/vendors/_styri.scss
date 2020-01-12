@@ -1,0 +1,1069 @@
+.syntax--source.syntax--css {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--css .syntax--comment {
+	color: #5e6382;
+	font-style: italic;
+}
+
+.syntax--source.syntax--css .syntax--punctuation:not(.syntax--string):not(.syntax--comment):not(.syntax--constant) {
+	color: #d5d9f1;
+}
+
+.syntax--source.syntax--css .syntax--brace {
+	color: #d5d9f1;
+}
+
+.syntax--source.syntax--css .syntax--operator {
+	color: #d5d9f1;
+}
+
+.syntax--source.syntax--css .syntax--operator.syntax--logical,
+.syntax--source.syntax--css .syntax--operator.syntax--control {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--css .syntax--at-rule .syntax--control {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--css .syntax--at-rule .syntax--constant.syntax--media {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--css .syntax--selector .syntax--wildcard {
+	color: #d5d9f1;
+}
+
+.syntax--source.syntax--css .syntax--selector .syntax--constant {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--css .syntax--pseudo-class,
+.syntax--source.syntax--css .syntax--pseudo-element {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--css .syntax--attribute-selector .syntax--attribute-name {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--css .syntax--attribute-selector .syntax--attribute-value {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--css .syntax--property-name {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--css .syntax--property-value {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--css .syntax--quoted,
+.syntax--source.syntax--css .syntax--constant,
+.syntax--source.syntax--css .syntax--function {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--css .syntax--important {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--css .syntax--variable:not(.syntax--parameter) {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--gfm {
+	color: #e0e3f5;
+}
+
+.syntax--source.syntax--gfm .syntax--comment:not(.syntax--quote):not(.syntax--critic),
+.syntax--source.syntax--gfm .syntax--front-matter {
+	color: #5e6382;
+	font-style: italic;
+}
+
+.syntax--source.syntax--gfm .syntax--quote {
+	font-style: italic;
+}
+
+.syntax--source.syntax--gfm .syntax--code > .syntax--support {
+	color: #5e6382;
+}
+
+.syntax--source.syntax--gfm .syntax--list,
+.syntax--source.syntax--gfm .syntax--quote .syntax--support,
+.syntax--source.syntax--gfm .syntax--heading .syntax--marker {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--gfm .syntax--raw,
+.syntax--source.syntax--gfm .syntax--bold,
+.syntax--source.syntax--gfm .syntax--italic,
+.syntax--source.syntax--gfm .syntax--strike {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--gfm .syntax--critic .syntax--marker,
+.syntax--source.syntax--gfm .syntax--critic .syntax--operator,
+.syntax--source.syntax--gfm .syntax--critic.syntax--comment {
+	color: #f2cd7e;
+}
+
+.syntax--source.syntax--gfm .syntax--link {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+	color: #e0e3f5;
+}
+
+.syntax--source.syntax--gfm .syntax--border {
+	color: #5e6382;
+}
+
+.syntax--text.syntax--html,
+.syntax--source.syntax--html:not(.syntax--embedded),
+.syntax--text.syntax--xml {
+	color: #f2cd7e;
+}
+
+.syntax--text.syntax--html .syntax--comment,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--comment,
+.syntax--text.syntax--xml .syntax--comment {
+	color: #5e6382;
+	font-style: italic;
+}
+
+.syntax--text.syntax--html .syntax--tag.syntax--doctype,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag.syntax--doctype,
+.syntax--text.syntax--xml .syntax--tag.syntax--doctype {
+	color: #fc30c9;
+}
+
+.syntax--text.syntax--html .syntax--tag .syntax--html.syntax--punctuation.syntax--tag,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--html.syntax--punctuation.syntax--tag,
+.syntax--text.syntax--xml .syntax--tag .syntax--html.syntax--punctuation.syntax--tag,
+.syntax--text.syntax--html .syntax--tag .syntax--xml.syntax--punctuation.syntax--tag,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--xml.syntax--punctuation.syntax--tag,
+.syntax--text.syntax--xml .syntax--tag .syntax--xml.syntax--punctuation.syntax--tag {
+	color: #d5d9f1;
+}
+
+.syntax--text.syntax--html .syntax--tag .syntax--html.syntax--punctuation.syntax--separator,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--html.syntax--punctuation.syntax--separator,
+.syntax--text.syntax--xml .syntax--tag .syntax--html.syntax--punctuation.syntax--separator,
+.syntax--text.syntax--html .syntax--tag .syntax--xml.syntax--punctuation.syntax--separator,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--xml.syntax--punctuation.syntax--separator,
+.syntax--text.syntax--xml .syntax--tag .syntax--xml.syntax--punctuation.syntax--separator {
+	color: #d5d9f1;
+}
+
+.syntax--text.syntax--html .syntax--tag .syntax--html.syntax--name,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--html.syntax--name,
+.syntax--text.syntax--xml .syntax--tag .syntax--html.syntax--name,
+.syntax--text.syntax--html .syntax--tag .syntax--xml.syntax--name,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--xml.syntax--name,
+.syntax--text.syntax--xml .syntax--tag .syntax--xml.syntax--name {
+	color: #fc30c9;
+}
+
+.syntax--text.syntax--html .syntax--tag .syntax--html.syntax--attribute-name,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--html.syntax--attribute-name,
+.syntax--text.syntax--xml .syntax--tag .syntax--html.syntax--attribute-name,
+.syntax--text.syntax--html .syntax--tag .syntax--xml.syntax--attribute-name,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--xml.syntax--attribute-name,
+.syntax--text.syntax--xml .syntax--tag .syntax--xml.syntax--attribute-name {
+	color: #0590fa;
+}
+
+.syntax--text.syntax--html .syntax--tag .syntax--html.syntax--string:not(.syntax--doctype),
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--html.syntax--string:not(.syntax--doctype),
+.syntax--text.syntax--xml .syntax--tag .syntax--html.syntax--string:not(.syntax--doctype),
+.syntax--text.syntax--html .syntax--tag .syntax--xml.syntax--string:not(.syntax--doctype),
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--xml.syntax--string:not(.syntax--doctype),
+.syntax--text.syntax--xml .syntax--tag .syntax--xml.syntax--string:not(.syntax--doctype) {
+	color: #07d2e8;
+}
+
+.syntax--text.syntax--html .syntax--tag .syntax--html.syntax--string:not(.syntax--doctype) .syntax--css:not(.syntax--punctuation),
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--html.syntax--string:not(.syntax--doctype) .syntax--css:not(.syntax--punctuation),
+.syntax--text.syntax--xml .syntax--tag .syntax--html.syntax--string:not(.syntax--doctype) .syntax--css:not(.syntax--punctuation),
+.syntax--text.syntax--html .syntax--tag .syntax--xml.syntax--string:not(.syntax--doctype) .syntax--css:not(.syntax--punctuation),
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--tag .syntax--xml.syntax--string:not(.syntax--doctype) .syntax--css:not(.syntax--punctuation),
+.syntax--text.syntax--xml .syntax--tag .syntax--xml.syntax--string:not(.syntax--doctype) .syntax--css:not(.syntax--punctuation) {
+	color: #07d2e8;
+}
+
+.syntax--text.syntax--html .syntax--template,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--template,
+.syntax--text.syntax--xml .syntax--template,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--scope.syntax--jinja,
+.syntax--text.syntax--xml .syntax--scope.syntax--jinja {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--template .syntax--punctuation.syntax--definition.syntax--block.syntax--angular,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--template .syntax--punctuation.syntax--definition.syntax--block.syntax--angular,
+.syntax--text.syntax--xml .syntax--template .syntax--punctuation.syntax--definition.syntax--block.syntax--angular,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--punctuation.syntax--definition.syntax--block.syntax--angular,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--scope.syntax--jinja .syntax--punctuation.syntax--definition.syntax--block.syntax--angular,
+.syntax--text.syntax--xml .syntax--scope.syntax--jinja .syntax--punctuation.syntax--definition.syntax--block.syntax--angular,
+.syntax--text.syntax--html .syntax--template .syntax--entity.syntax--name.syntax--tag.syntax--mustache,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--template .syntax--entity.syntax--name.syntax--tag.syntax--mustache,
+.syntax--text.syntax--xml .syntax--template .syntax--entity.syntax--name.syntax--tag.syntax--mustache,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--entity.syntax--name.syntax--tag.syntax--mustache,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--scope.syntax--jinja .syntax--entity.syntax--name.syntax--tag.syntax--mustache,
+.syntax--text.syntax--xml .syntax--scope.syntax--jinja .syntax--entity.syntax--name.syntax--tag.syntax--mustache,
+.syntax--text.syntax--html .syntax--template .syntax--entity.syntax--other.syntax--delimiter.syntax--jinja,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--template .syntax--entity.syntax--other.syntax--delimiter.syntax--jinja,
+.syntax--text.syntax--xml .syntax--template .syntax--entity.syntax--other.syntax--delimiter.syntax--jinja,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--entity.syntax--other.syntax--delimiter.syntax--jinja,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--scope.syntax--jinja .syntax--entity.syntax--other.syntax--delimiter.syntax--jinja,
+.syntax--text.syntax--xml .syntax--scope.syntax--jinja .syntax--entity.syntax--other.syntax--delimiter.syntax--jinja {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--template .syntax--function.syntax--mustache,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--template .syntax--function.syntax--mustache,
+.syntax--text.syntax--xml .syntax--template .syntax--function.syntax--mustache,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--function.syntax--mustache,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--scope.syntax--jinja .syntax--function.syntax--mustache,
+.syntax--text.syntax--xml .syntax--scope.syntax--jinja .syntax--function.syntax--mustache,
+.syntax--text.syntax--html .syntax--template .syntax--test.syntax--jinja,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--template .syntax--test.syntax--jinja,
+.syntax--text.syntax--xml .syntax--template .syntax--test.syntax--jinja,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--test.syntax--jinja,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--scope.syntax--jinja .syntax--test.syntax--jinja,
+.syntax--text.syntax--xml .syntax--scope.syntax--jinja .syntax--test.syntax--jinja {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html.syntax--angular .syntax--meta.syntax--tag.syntax--any,
+.syntax--source.syntax--html:not(.syntax--embedded).syntax--angular .syntax--meta.syntax--tag.syntax--any,
+.syntax--text.syntax--xml.syntax--angular .syntax--meta.syntax--tag.syntax--any {
+	color: #d5d9f1;
+}
+
+.syntax--text.syntax--html.syntax--xml .syntax--meta.syntax--tag:not(.syntax--doctype),
+.syntax--source.syntax--html:not(.syntax--embedded).syntax--xml .syntax--meta.syntax--tag:not(.syntax--doctype),
+.syntax--text.syntax--xml.syntax--xml .syntax--meta.syntax--tag:not(.syntax--doctype) {
+	color: #d5d9f1;
+}
+
+.syntax--text.syntax--html .syntax--embedded.syntax--punctuation.syntax--ruby,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--embedded.syntax--punctuation.syntax--ruby,
+.syntax--text.syntax--xml .syntax--embedded.syntax--punctuation.syntax--ruby {
+	color: #d5d9f1;
+}
+
+.syntax--text.syntax--html .syntax--embedded.syntax--punctuation,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--embedded.syntax--punctuation,
+.syntax--text.syntax--xml .syntax--embedded.syntax--punctuation {
+	color: #d5d9f1;
+}
+
+.syntax--text.syntax--html .syntax--embedded.syntax--punctuation .syntax--source,
+.syntax--source.syntax--html:not(.syntax--embedded) .syntax--embedded.syntax--punctuation .syntax--source,
+.syntax--text.syntax--xml .syntax--embedded.syntax--punctuation .syntax--source {
+	color: #d5d9f1 !important;
+}
+
+.syntax--source.syntax--json {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--json .syntax--key {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--json .syntax--value {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--json .syntax--punctuation:not(.syntax--string) {
+	color: #d5d9f1;
+}
+
+.syntax--source.syntax--json .syntax--numeric {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--json .syntax--language {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--regexp {
+	color: #e0e3f5;
+}
+
+.syntax--source.syntax--regexp .syntax--control.syntax--anchor {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--regexp .syntax--group:not(.syntax--assertion) .syntax--punctuation {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--regexp .syntax--group.syntax--assertion .syntax--punctuation,
+.syntax--source.syntax--regexp .syntax--group.syntax--assertion .syntax--look-ahead,
+.syntax--source.syntax--regexp .syntax--group.syntax--assertion .syntax--look-behind,
+.syntax--source.syntax--regexp .syntax--group.syntax--assertion .syntax--negative-look-ahead,
+.syntax--source.syntax--regexp .syntax--group.syntax--assertion .syntax--negative-look-behind {
+	color: #f2cd7e;
+}
+
+.syntax--source.syntax--regexp .syntax--operator.syntax--or {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--regexp .syntax--variable.syntax--variable.syntax--replacement {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--regexp .syntax--escape.syntax--character {
+	color: #e0e3f5;
+}
+
+.syntax--source.syntax--regexp .syntax--character-class.syntax--character {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--regexp .syntax--character-class.syntax--set .syntax--punctuation,
+.syntax--source.syntax--regexp .syntax--character-class.syntax--set .syntax--negation {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--regexp .syntax--character-class.syntax--set .syntax--range {
+	color: #fc30c9;
+}
+
+.syntax--source.syntax--regexp .syntax--operator.syntax--quantifier {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--yaml {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--yaml .syntax--comment {
+	color: #5e6382;
+	font-style: italic;
+}
+
+.syntax--source.syntax--yaml .syntax--tag {
+	color: #0590fa;
+}
+
+.syntax--source.syntax--yaml .syntax--string {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--yaml .syntax--string * {
+	color: #07d2e8;
+}
+
+.syntax--source.syntax--yaml .syntax--punctuation:not(.syntax--string):not(.syntax--comment) {
+	color: #d5d9f1;
+}
+
+.syntax--source.syntax--yaml .syntax--numeric {
+	color: #0cebc5;
+}
+
+.syntax--source.syntax--yaml .syntax--language {
+	color: #0cebc5;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) {
+	color: #0590fa;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--storage.syntax--type,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--storage.syntax--type {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--section,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--section {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--string.syntax--string,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--string.syntax--string {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--section.syntax--embedded,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--section.syntax--embedded {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--character-class,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--character-class,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--group,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--group,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--parenthesis,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--parenthesis,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--range,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--punctuation.syntax--range,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--look-ahead,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--look-ahead,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--look-behind,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--look-behind,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--negative-look-ahead,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--negative-look-ahead,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--negative-look-behind,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--negative-look-behind,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--keyword.syntax--keyword,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--keyword.syntax--keyword,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--tag,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--tag,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--begin,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--begin,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--end,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--end,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--flag,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--regexp .syntax--flag {
+	color: #f79779;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--comment,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--comment,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--docstring,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--docstring {
+	color: #5e6382;
+	font-style: italic;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--comment *,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--comment *,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--docstring *,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--docstring * {
+	color: #5e6382 !important;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp),
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > *,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > *,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > *,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--escape,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--escape,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--escape,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--escape,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--sql.syntax--sql,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--sql.syntax--sql,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--sql.syntax--sql,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--sql.syntax--sql {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--placeholder,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--placeholder,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--placeholder,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--placeholder,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--format,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--format,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--format,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted > * .syntax--format {
+	color: #f79779;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language),
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--variable:not(.syntax--language),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--variable:not(.syntax--language),
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql),
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--embedded:not(.syntax--sql),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--embedded:not(.syntax--sql) {
+	color: #0590fa;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql).syntax--punctuation,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql).syntax--punctuation,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--embedded:not(.syntax--sql).syntax--punctuation,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--unquoted .syntax--embedded:not(.syntax--sql).syntax--punctuation {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--fstring .syntax--escape,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--fstring .syntax--escape {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--fstring .syntax--format,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--fstring .syntax--format {
+	color: #fc30c9;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--fstring .syntax--placeholder,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--fstring .syntax--placeholder {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--symbol.syntax--ruby,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--symbol.syntax--ruby {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded) {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--string,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--string,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--heredoc,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--heredoc {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--symbol.syntax--ruby,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--symbol.syntax--ruby {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--constant.syntax--ruby:not(.syntax--hashkey),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--punctuation:not(.syntax--embedded).syntax--constant.syntax--ruby:not(.syntax--hashkey) {
+	color: #f2cd7e;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--delimiter,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--delimiter,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--brace,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--brace {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--sizeof,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--sizeof {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--cpp,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--cpp {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--void,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--void {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--comparison.syntax--stringwise,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--comparison.syntax--stringwise {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--logical.syntax--python,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--logical.syntax--python,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--logical.syntax--perl:not(.syntax--c-style):not(.syntax--defined-or),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--operator.syntax--logical.syntax--perl:not(.syntax--c-style):not(.syntax--defined-or) {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--other.syntax--r,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--other.syntax--r {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--ternary,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--keyword.syntax--ternary {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--kernel.syntax--ruby,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--kernel.syntax--ruby {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--kernel.syntax--ruby.syntax--arrow,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--kernel.syntax--ruby.syntax--arrow {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--parameter:not(.syntax--special),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--parameter:not(.syntax--special) {
+	color: #0590fa;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--constant,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--constant {
+	color: #fc30c9;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--constant.syntax--perl,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--constant.syntax--perl {
+	color: #0590fa;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--wildcard,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--wildcard,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--import-all,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--language.syntax--import-all {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow) {
+	color: #0590fa;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow).syntax--wildcard,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow).syntax--wildcard {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--ruby,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--ruby {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--modifier.syntax--java.syntax--import,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--modifier.syntax--java.syntax--import,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--modifier.syntax--java.syntax--package,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--modifier.syntax--java.syntax--package {
+	color: #0590fa;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--arrow,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--type.syntax--arrow,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--function.syntax--coffee,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--storage.syntax--function.syntax--coffee {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--support.syntax--type,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--support.syntax--type {
+	color: #12e67c;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--constant.syntax--numeric:not(.syntax--regexp),
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--constant.syntax--numeric:not(.syntax--regexp) {
+	color: #fc30c9;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--period,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--period {
+	color: #fc30c9;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--type,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--type {
+	color: #fc30c9;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--line-continuation,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--line-continuation,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--continuation,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--continuation {
+	color: #d5d9f1;
+}
+
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--invalid,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--invalid,
+.syntax--source:not(.syntax--css):not(.syntax--gfm):not(.syntax--html):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--illegal,
+.syntax--source.syntax--embedded.syntax--html:not(.syntax--css):not(.syntax--gfm):not(.syntax--json):not(.syntax--regexp):not(.syntax--yaml) .syntax--illegal {
+	color: #fa526e;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja,
+.syntax--text.syntax--html .syntax--template {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp,
+.syntax--text.syntax--html .syntax--template .syntax--regexp {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--storage.syntax--type,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--storage.syntax--type {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--section,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--section {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--string.syntax--string,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--string.syntax--string {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--section.syntax--embedded,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--section.syntax--embedded {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--character-class,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--character-class,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--group,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--group,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--parenthesis,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--parenthesis,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--punctuation.syntax--range,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--punctuation.syntax--range,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--look-ahead,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--look-ahead,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--look-behind,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--look-behind,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--negative-look-ahead,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--negative-look-ahead,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--negative-look-behind,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--negative-look-behind,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--keyword.syntax--keyword,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--keyword.syntax--keyword,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--tag,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--tag,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--begin,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--begin,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--end,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--end,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--regexp .syntax--flag,
+.syntax--text.syntax--html .syntax--template .syntax--regexp .syntax--flag {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--comment,
+.syntax--text.syntax--html .syntax--template .syntax--comment,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--docstring,
+.syntax--text.syntax--html .syntax--template .syntax--docstring {
+	color: #5e6382;
+	font-style: italic;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--comment *,
+.syntax--text.syntax--html .syntax--template .syntax--comment *,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--docstring *,
+.syntax--text.syntax--html .syntax--template .syntax--docstring * {
+	color: #5e6382 !important;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp),
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp),
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > *,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > *,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted > *,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted > * {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--escape,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--escape,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted > * .syntax--escape,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted > * .syntax--escape,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--sql.syntax--sql,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--sql.syntax--sql,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted > * .syntax--sql.syntax--sql,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted > * .syntax--sql.syntax--sql {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--placeholder,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--placeholder,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted > * .syntax--placeholder,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted > * .syntax--placeholder,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--format,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) > * .syntax--format,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted > * .syntax--format,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted > * .syntax--format {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language),
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language),
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted .syntax--variable:not(.syntax--language),
+.syntax--text.syntax--html .syntax--template .syntax--unquoted .syntax--variable:not(.syntax--language),
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql),
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql),
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted .syntax--embedded:not(.syntax--sql),
+.syntax--text.syntax--html .syntax--template .syntax--unquoted .syntax--embedded:not(.syntax--sql) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted .syntax--variable:not(.syntax--language).syntax--punctuation,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql).syntax--punctuation,
+.syntax--text.syntax--html .syntax--template .syntax--quoted:not(.syntax--docstring):not(.syntax--regexp) .syntax--embedded:not(.syntax--sql).syntax--punctuation,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--unquoted .syntax--embedded:not(.syntax--sql).syntax--punctuation,
+.syntax--text.syntax--html .syntax--template .syntax--unquoted .syntax--embedded:not(.syntax--sql).syntax--punctuation {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--fstring .syntax--escape,
+.syntax--text.syntax--html .syntax--template .syntax--fstring .syntax--escape {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--fstring .syntax--format,
+.syntax--text.syntax--html .syntax--template .syntax--fstring .syntax--format {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--fstring .syntax--placeholder,
+.syntax--text.syntax--html .syntax--template .syntax--fstring .syntax--placeholder {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--symbol.syntax--ruby,
+.syntax--text.syntax--html .syntax--template .syntax--symbol.syntax--ruby {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--punctuation:not(.syntax--embedded),
+.syntax--text.syntax--html .syntax--template .syntax--punctuation:not(.syntax--embedded) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--punctuation:not(.syntax--embedded).syntax--string,
+.syntax--text.syntax--html .syntax--template .syntax--punctuation:not(.syntax--embedded).syntax--string,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--punctuation:not(.syntax--embedded).syntax--heredoc,
+.syntax--text.syntax--html .syntax--template .syntax--punctuation:not(.syntax--embedded).syntax--heredoc {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--punctuation:not(.syntax--embedded).syntax--symbol.syntax--ruby,
+.syntax--text.syntax--html .syntax--template .syntax--punctuation:not(.syntax--embedded).syntax--symbol.syntax--ruby {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--punctuation:not(.syntax--embedded).syntax--constant.syntax--ruby:not(.syntax--hashkey),
+.syntax--text.syntax--html .syntax--template .syntax--punctuation:not(.syntax--embedded).syntax--constant.syntax--ruby:not(.syntax--hashkey) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--delimiter,
+.syntax--text.syntax--html .syntax--template .syntax--delimiter,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--brace,
+.syntax--text.syntax--html .syntax--template .syntax--brace {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword,
+.syntax--text.syntax--html .syntax--template .syntax--keyword {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--sizeof,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--sizeof {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--cpp,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--cpp {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--new,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--new,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--in,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--in,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--of,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--of,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--void,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--void {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--comparison.syntax--stringwise,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--comparison.syntax--stringwise {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--logical.syntax--python,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--logical.syntax--python,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--operator.syntax--logical.syntax--perl:not(.syntax--c-style):not(.syntax--defined-or),
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--operator.syntax--logical.syntax--perl:not(.syntax--c-style):not(.syntax--defined-or) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--other.syntax--r,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--other.syntax--r {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--keyword.syntax--ternary,
+.syntax--text.syntax--html .syntax--template .syntax--keyword.syntax--ternary {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--kernel.syntax--ruby,
+.syntax--text.syntax--html .syntax--template .syntax--kernel.syntax--ruby {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--kernel.syntax--ruby.syntax--arrow,
+.syntax--text.syntax--html .syntax--template .syntax--kernel.syntax--ruby.syntax--arrow {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--language,
+.syntax--text.syntax--html .syntax--template .syntax--language {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--language.syntax--parameter:not(.syntax--special),
+.syntax--text.syntax--html .syntax--template .syntax--language.syntax--parameter:not(.syntax--special) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--language.syntax--constant,
+.syntax--text.syntax--html .syntax--template .syntax--language.syntax--constant {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--language.syntax--constant.syntax--perl,
+.syntax--text.syntax--html .syntax--template .syntax--language.syntax--constant.syntax--perl {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--language.syntax--wildcard,
+.syntax--text.syntax--html .syntax--template .syntax--language.syntax--wildcard,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--language.syntax--import-all,
+.syntax--text.syntax--html .syntax--template .syntax--language.syntax--import-all {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage,
+.syntax--text.syntax--html .syntax--template .syntax--storage {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow),
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow).syntax--wildcard,
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--type.syntax--java:not(.syntax--primitive):not(.syntax--arrow).syntax--wildcard {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--type.syntax--ruby,
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--type.syntax--ruby {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--modifier.syntax--java.syntax--import,
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--modifier.syntax--java.syntax--import,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--modifier.syntax--java.syntax--package,
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--modifier.syntax--java.syntax--package {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--type.syntax--arrow,
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--type.syntax--arrow,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--storage.syntax--function.syntax--coffee,
+.syntax--text.syntax--html .syntax--template .syntax--storage.syntax--function.syntax--coffee {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--support.syntax--type,
+.syntax--text.syntax--html .syntax--template .syntax--support.syntax--type {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--constant.syntax--numeric:not(.syntax--regexp),
+.syntax--text.syntax--html .syntax--template .syntax--constant.syntax--numeric:not(.syntax--regexp) {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--period,
+.syntax--text.syntax--html .syntax--template .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--period {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--type,
+.syntax--text.syntax--html .syntax--template .syntax--constant.syntax--numeric:not(.syntax--regexp) .syntax--type {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--line-continuation,
+.syntax--text.syntax--html .syntax--template .syntax--line-continuation,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--continuation,
+.syntax--text.syntax--html .syntax--template .syntax--continuation {
+	color: #f79779;
+}
+
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--invalid,
+.syntax--text.syntax--html .syntax--template .syntax--invalid,
+.syntax--text.syntax--html .syntax--scope.syntax--jinja .syntax--illegal,
+.syntax--text.syntax--html .syntax--template .syntax--illegal {
+	color: #fa526e;
+}

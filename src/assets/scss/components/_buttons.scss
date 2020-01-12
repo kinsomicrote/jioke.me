@@ -1,0 +1,29 @@
+.btn {
+  -webkit-appearance: none;
+  display: inline-block;
+  border: none;
+  padding: 20px;
+  margin: 0;
+  background-color: $green-02;
+  color: $black;
+  font: 700 rem(21) $body-font-family;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  white-space: normal;
+  transition: background-color .3s ease;
+
+  &:hover, &:active {
+    background-color: $green-04;
+    color: $black;
+  }
+
+  &-has-arrow {
+    background-image: url(/assets/svgs/arrow.svg);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 45px;
+  }
+}

@@ -1,0 +1,55 @@
+.homepage {
+
+  &__intro {
+    animation: fade 600ms ease;
+  }
+
+  &__title {
+    @include media(small_only) {
+      text-align: center;
+    }
+
+    span {
+      color: $lime-01;
+    }
+  }
+
+  &__description {
+    color: $grey-01;
+    font-weight: 400;
+    font-size: rem(18);
+
+    @include media(small_only) {
+      text-align: center;
+    }
+  }
+
+  em {
+    font-weight: 500;
+    color: $black;
+  }
+
+  h5 {
+    @include media(small_only) {
+      text-align: center;
+    }
+  }
+}
+
+.title-hero {
+  display: block;
+  margin: rem($spacing-unit * 3) 0 rem(30px);
+  color: $black;
+  text-transform: uppercase;
+  font-size: $base-font-size;
+  position: relative;
+
+  &:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: rem(50px);
+    margin: rem(20) 0 0;
+    background: $purple-03;
+  }
+}

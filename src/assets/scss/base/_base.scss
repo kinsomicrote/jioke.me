@@ -1,0 +1,36 @@
+// --------------------------------------------
+// basic styles for commonly used HTML elements
+// --------------------------------------------
+
+html {
+  box-sizing: border-box;
+}
+
+/*
+ * Make elements inherit parent's box-sizing
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/*
+ * Links
+ */
+
+a {
+  color: inherit;
+  border-bottom: 1px solid black;
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
+
+  &:active,
+  &:hover {
+    color: black;
+    border-color: black;
+    outline: 0;
+  }
+}

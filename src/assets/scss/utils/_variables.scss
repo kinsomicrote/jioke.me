@@ -1,0 +1,114 @@
+// -------------------------
+// Site-wide Sass variables
+// -------------------------
+
+
+// Fonts
+$sans-font-stack: 		'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$mono-font-stack: 		'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+$body-font-family: 		'Inter', $sans-font-stack;
+$heading-font-family: $body-font-family;
+$code-font-family: 		'Fira Code', $mono-font-stack;
+$default-font-size:   16px;
+$base-font-size:      $default-font-size * 1.125;
+$small-font-size:     $default-font-size * .8125;
+
+$base-font-weight:    400;
+$base-line-height:    1.8;
+
+$spacing-unit:        30px;
+$content-width:       45rem;
+$wide-content-width:  75rem;
+
+
+
+// Containers
+$max-width: 1180px !default;
+
+
+
+// Breakpoints
+// @prop {String} keys - Keys are identifiers mapped to a given length
+// @prop {Map} values - Values are actual breakpoints expressed in pixel
+$breakpoints: (
+    small_only: '(max-width: 30rem)', // 480
+    small: '(min-width: 0rem)',
+    medium: '(min-width: 48rem)',     // 768
+    large: '(min-width: 60rem)',      // 960
+    x_large: '(min-width: 75rem)'     // 1200
+);
+
+
+
+// Colors
+// !! NEED TO CLEAN UP !!//
+$black:               #222;
+$white:               #fff;
+$grey-01:							#3f4754;
+$grey-02:							#606876;
+$grey-03:							#838c9a;
+$grey-04:							#a8b1c0;
+$grey-05: 						#cfd8e8;
+
+$green-01:						#2BC4A2;
+$green-02:						#0aeba5;
+$green-03: 						#54ffbd;
+$green-04: 						#9df7db;
+
+$cyan-01:             #00DDFF;
+$cyan-02:							#66e2fc;
+$cyan-03:							#84ebfc;
+
+$blue-01:							#3200ba;
+$blue-02:							#0060df;
+$blue-03:							#4390e3;
+$blue-04:							#02a3f1;
+$blue-05:							#84d7ff;
+
+$indigo-01:						#572bc9;
+$indigo-02:						#9059FF;
+$indigo-03:						#CC9EFF;
+
+$purple-01:						#67117c;
+$purple-02:						#971db4;
+$purple-03:						#F564FF;
+
+$pink-01:							#eb2a8b;
+$pink-02:							#FF2A8A;
+$pink-03:							#ef80ba;
+
+$red-01:							#C50143;
+$red-02:							#E02950;
+$red-03:							#FF4F5E;
+
+$orange-01:						#F53;
+$orange-02:						#FE8A4F;
+$orange-03: 					#ff7500;
+
+$yellow-01:						#ffca0c;
+$yellow-02:						#FFD567;
+$yellow-03:						#fff44f;
+
+$lime-01:							#8ae234;
+$lime-02: 						#a6e22d;
+$not-lime:						#00d158;
+$forest:    					#005e5e;
+$forest-green: $forest;
+
+// Info boxes
+$color-info:					$blue-02;
+$color-success: 			$green-02;
+$color-warning: 			$yellow-01;
+$color-error:					$pink-02;
+
+// Proactive about misspellings
+$gray-01: $grey-01;
+$gray-02: $grey-02;
+$gray-03: $grey-03;
+$gray-04: $grey-04;
+
+
+// code block colors
+$block-code-color:    #adb1bc;
+$text-code-color:			$indigo-02;

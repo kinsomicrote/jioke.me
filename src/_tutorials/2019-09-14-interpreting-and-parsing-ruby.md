@@ -53,7 +53,7 @@ If we print out the class of the variable `a`, we'll get `NilClass`. Sincerely, 
 
 Ruby goes through some steps to run your code.
 
-We can make use of use of [Ripper](https://ruby-doc.org/stdlib-2.5.1/libdoc/ripper/rdoc/Ripper.html), which is a Ruby script parser to understand what's happening.
+We can make use of [Ripper](https://ruby-doc.org/stdlib-2.5.1/libdoc/ripper/rdoc/Ripper.html), which is a Ruby script parser to understand what's happening.
 See a sample [here](https://repl.it/@kinsomicrote/parsingassignmentstudy).
 
 

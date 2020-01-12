@@ -7,13 +7,17 @@
 */
 
 module.exports = {
-  title: "Kingsley Silas",
-  author: "Kingsley Silas",
-  url: "https://www.jioke.me", // Don't end with a slash /
-  description: "",
+  title: "Kyanne Rose",
+  url: "https://kyanne.dev", // Don't end with a slash /
+  description: "I love computers and I love the Internet, so I'm learning how to program them.",
+  copyright: {
+    from: "2019",
+    name: "Kyanne Rose"
+  },
   social_meta: {
-    twitter: "@kinsomicrote",
-    featured_image: ""
+    twitter: "@kyr0se",
+    github: "kyrose",
+    featured_image: "/assets/images/featured_image.png"
   },
   ENV: process.env.ELEVENTY_ENV
 };

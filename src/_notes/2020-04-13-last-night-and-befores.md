@@ -6,7 +6,7 @@ date: 2020-04-13
   1.
   
   She was in my dreams last night, again.
-  We got back together and we were inseparable this time. We couldn’t help but still kisses and caresses even in public, as she stayed in my arms and I in hers.
+  We got back together and we were inseparable this time. We couldn’t help but steal kisses and caresses even in public, as she stayed in my arms and I in hers.
   
   A few minutes later we were off to a house with a room, off to continue in private, free from those stealing glances. Needless to say, she was in my mind when I woke up this morning, is God telling me something? Or is this the lack of colliding bodies? Or information buried in my subsconcious?
   Whatever it is, it definitely got my attention. Thinking about relationships in the morning makes it a slow morning, hindering every attempt to sleep. So I keep rolling on the bed, nonstop.

@@ -5,7 +5,7 @@ date: 2020-04-13
 
 It’s 10:37 PM here, I’m ready for bed. I got It’s Okay To Cry by Yinka Bernie and Joyce Olong on repeat.
 
-This is one of the nights where I want to be alone. Every lyric of the song describes my current state. A few hours ago, I wanted to yell - yell at someone for no reason, yell because I couldn’t process what I was feeling. I wanted to yell non-stop, then possibly cry. After which I’ll lay down and sleep.
+This is one of the nights where I want to be alone. Most of the lyric of the song describes my current state. A few hours ago, I wanted to yell - yell at someone for no reason, yell because I couldn’t process what I was feeling. I wanted to yell non-stop, then possibly cry. After which I’ll lay down and sleep.
 
 I barely have this sort of feeling, I barely hit this level of stress. The one that makes everything to get to me, making me a ball of rumbling emotions. Emotions that I can’t process.
 
